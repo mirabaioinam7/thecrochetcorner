@@ -619,24 +619,6 @@ footer .top:hover {
         padding-bottom: 1rem;
     }
 
-    #product3 h2 {
-        font-size: 30px;
-        line-height: 30px;
-        padding-bottom: 1rem;
-    }
-
-    #product4 h2 {
-        font-size: 30px;
-        line-height: 30px;
-        padding-bottom: 1rem;
-    }
-
-    #product5 h2 {
-        font-size: 30px;
-        line-height: 30px;
-        padding-bottom: 1rem;
-    }
-
     #product1 .pro-container {
         justify-content: center;
     }
@@ -645,35 +627,11 @@ footer .top:hover {
         justify-content: center;
     }
 
-    #product3 .pro-container {
-        justify-content: center;
-    }
-
-    #product4 .pro-container {
-        justify-content: center;
-    }
-
-    #product5 .pro-container {
-        justify-content: center;
-    }
-
     #product1 .pro {
         width: 100%;
     }
 
     #product2 .pro {
-        width: 100%;
-    }
-
-    #product3 .pro {
-        width: 100%;
-    }
-
-    #product4 .pro {
-        width: 100%;
-    }
-
-    #product5 .pro {
         width: 100%;
     }
 
@@ -697,4 +655,8 @@ footer .top:hover {
         width: 8rem;
     }
 
+}
+@media (max-width: 499px) {
+    .home .content h1 {
+        font-size: 1rem;
 }
